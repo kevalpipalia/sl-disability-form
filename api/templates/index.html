@@ -66,12 +66,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
 </head>
 <body>
     <div class="background">
         <button id="downloadButton" onclick="downloadPDF()">Download PDF</button>
     </div>
-    <script src="/static/script.js"></script>
+    <script type="text/javascript" src="/static/styles/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,5 @@
+fillpdf
+openai
+langchain
+pydantic 
+flask
