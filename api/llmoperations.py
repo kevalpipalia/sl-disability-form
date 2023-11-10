@@ -136,7 +136,7 @@ class PrimaryStatements(BaseModel):
         default="",
     )
     treatment: str = Field(
-        description="Summarize the treatment from the MD Notes, mention drugs, dosage, physiotherapy if required and other details.",
+        description="Summarize the treatment from the MD Notes, mention drugs, dosage, physiotherapy if required and other details. Answer with accurate information.",
         default=None,
     )
     prognosis: str = Field(
@@ -219,7 +219,7 @@ class AdvanceStatements(BaseModel):
     )
 
     symptoms: str = Field(
-        description="Provide the details on patient's symptoms, Be specific and describe current symptoms, severity and frequency.", 
+        description="Provide the details on patient's symptoms, Be specific and describe current symptoms, severity and frequency. INCLUDE PHQ9 AND GAD7 SCORES. Summarize in 3 lines maximum.", 
         default=None
     )
 
@@ -281,12 +281,12 @@ class AdvanceStatements(BaseModel):
     )
 
     restrictions_and_limitations: str = Field(
-        description="Please describe patient's current cognitive and/or physical restrictions and limitations. Be specific and descriptive.",
+        description="Please describe patient's current cognitive and/or physical restrictions and limitations. Be specific and descriptive. Summarize in 4 lines maximum.",
         default=""
     )
 
     complications_and_other_conditions: str = Field(
-        description= "Describe any complications and additional conditions impacting patient's level of function or the expected recovery period. Be descriptive and accurate.",
+        description= "Describe any complications and additional conditions impacting patient's level of function or the expected recovery period. Be descriptive and accurate. Summarize in 4 lines maximum.",
         default=""
     )
 

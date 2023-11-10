@@ -24,6 +24,7 @@ mapping_dict = {
     "surgery_description": "2 description G",
     "surgery_anaesthetic": "2 type of anaesthetic G",
     "treatment": "2 Treatment G",
+    "treatment_1": "2 Treatment 2 G",
     "prognosis": "2 prognosis G",
     "history": "3 History G",
     "prev_treatment_d": "Date_of_birth_d G",
@@ -31,6 +32,8 @@ mapping_dict = {
     "prev_treatment_y": "Date_of_birth_y G",
     "visit_freq": "3 other G",
     "symptoms": "3 Symp G",
+    "symptoms_1": "3 Symp 2 G",
+    "symptoms_2": "3 Symp 3 G",
     "are_tests_investigation_pending": "3 Are tests G",
     "expected_dor_d": "Date_of_birth_d 2 G",
     "expected_dor_m": "Date_of_birth_m 2 G",
@@ -41,7 +44,11 @@ mapping_dict = {
     "specialist_consultation_m": "Date_of_birth_m 3 G",
     "specialist_consultation_y": "Date_of_birth_y 3 G",
     "restrictions_and_limitations": "3 res G",
+    "restrictions_and_limitations_1": "3 res 2 G",
+    "restrictions_and_limitations_2": "3 res 3 G",
     "complications_and_other_conditions": "3 Comp G",
+    "complications_and_other_conditions_1": "3 Comp 2 G",
+    "complications_and_other_conditions_2": "3 Comp 3 G",
     "compliance_to_treatment": "3 Compliance to treat G",
     "competency": "3 Competency G"
 }

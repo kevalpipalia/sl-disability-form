@@ -138,7 +138,8 @@ def advance_annotating_forms(pdf_path):
     phy_statement = get_advance_statement("api/context.txt")
     data_dict = {"3 Visit G": "Other",
                  "3 Compliance to treat G": None,
-                 "3 Competency G": None}
+                 "3 Competency G": None, 
+                 "3 History G": "Female"}
     final_update = {**phy_statement, **data_dict}
     
     fillpdfs.write_fillable_pdf(
@@ -160,6 +161,7 @@ def annotate_forms():
     # fields = fillpdfs.get_form_fields("input-forms/blank_format.pdf")
     # print(fields)
     output_path = "/tmp/filled-out.pdf"
+    final_path = "/tmp/sunlife-filled.pdf"
     member_details = get_user_details("api/member-details.json")
     phy_statement_1 = get_primary_statement("api/context.txt")
     provider_details = get_user_details("api/provider-details.json")
@@ -170,6 +172,7 @@ def annotate_forms():
     fillpdfs.write_fillable_pdf(
         "api/input-forms/blank_format.pdf", output_path, final_update
     )
+
     return output_path
 
 
@@ -193,6 +196,7 @@ def get_primary_statement(contextpath):
 
 def match_generated_content_with_template_fields(content: PrimaryStatements):
     serialized_content = content.model_dump(exclude_none=True)
+    serialized_content = split_dict_string_values(serialized_content)
     swapped_dict = {
         mapping_dict[key]: value
         for key, value in serialized_content.items()
@@ -204,6 +208,19 @@ def match_generated_content_with_template_fields(content: PrimaryStatements):
     }
     return swapped_dict
 
+def split_dict_string_values(d, chunk_size=130):
+    new_dict = {}
+    for key, value in d.items():
+        if isinstance(value, str) and len(value) > chunk_size:
+            for i in range(len(value)//chunk_size +1):
+                
+                if i!=0:
+                    new_dict[key+'_'+str(i)] = value[chunk_size*(i):chunk_size*(i+1)]
+                else:
+                    new_dict[key] = value[:chunk_size*(i+1)]
+        else:
+            new_dict[key] = value
+    return new_dict
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000, debug=True)

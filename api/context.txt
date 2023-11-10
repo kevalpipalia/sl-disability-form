@@ -1,162 +1,271 @@
-<<MHD Note>>
+# MHD note
+
 Date: August 18, 2023
 
-**Dispatch LI (EN)**
-**History**
+# **Dispatch LI (EN)**
+
+## **History**
+
+### 
+
 Reason for consultation "Symptoms similar to burnout: MD/NP + PSY"
-Access to our services
+
+### **Access to our services**
+
 Patient's location "Quebec"
+
 Patient's identity validated by date of birth and ID "Yes"
+
 Reason for consultation "I think I need psychological help and I am very close to having a nervous breakdown"
 
-**Health History**
+### **Health History**
+
 Does the member have a family doctor or a doctor in a walk-in clinic who follows them? No
-Add details "not answered"
-Medical/surgical history No
-Please add details "not answered"
-Is the member taking medications regularly? (for physical and/or mental health) No
-Please specify the medication(s) and the period(s) concerned "not answered"
-Does the member have therapy sessions? No
+
 Add details "not answered"
 
-**Examination**
-**Symptoms related to the situation**
+Medical/surgical history No
+
+Please add details "not answered"
+
+Is the member taking medications regularly? (for physical and/or mental health) No
+
+Please specify the medication(s) and the period(s) concerned "not answered"
+
+Does the member have therapy sessions? No
+
+Add details "not answered"
+
+## **Examination**
+
+### **Symptoms related to the situation**
+
 Experienced symptoms "Since November, she has been working up to 70 (even 100) hours at Disney, and it's very stressful. There are several departures in the teams, and she no longer has time to manage. She describes her brain like a computer where she can't close the windows: -sleep: she is exhausted and her eyes close, but her brain never stops. She has headaches as a result. She is unable to stop thinking (since January 2023) -appetite: for a few weeks, she hasn't taken the time to eat. She describes her appetite as 60% of normal -concentration: at work, she is good, but as soon as she is in a less demanding situation, she is in her bubble and not present, even when watching TV -anxiety about not being able to cope or forgetting something. It's more to try to "keep it together" despite everything. Every week, the stress is much greater. Strategies: sleep more, but she can't. She thinks she is close to a nervous breakdown: she has difficulty finding pleasure in things she loved before, even playing with her children. Support: she thinks she is well supported by her partner Mickey and her Disney family"
+
 How long has the member been experiencing the reported symptoms? "Since November 2022"
 
-**Substance use**
+### **Substance use**
+
 Does the member use one or more substances? Yes
+
 Is the member concerned about their substance use? "No" Type(s) of substance "Alcohol" Quantity and frequency of use "One glass on Friday night" Has the member tried to reduce their consumption? If yes, were these attempts successful? "not answered" Additional risk factors? (diagnosis in the family, etc.) "not answered"
 
-**Suicidal or homicidal thoughts**
+### **Suicidal or homicidal thoughts**
+
 Presence of suicidal thoughts? No
+
 Is there a "how"? "not answered" A "where"? "not answered" A "when"? "not answered" Details "not answered"
+
 Suicide plan "N/A"
 
-**Eligibility for services**
-**Consultations with a MD/NP from Dialogue**
+## **Eligibility for services**
+
+### **Consultations with a MD/NP from Dialogue**
+
 Can the member see a doctor within a reasonable time? "No"
+
 Does the member have symptoms, a situation, or a request out of scope? No
+
 Select "not answered" Add details "not answered"
+
 Eligibility assessed to meet with a MD/NP from Dialogue? Yes
+
 Is the member seeking a second opinion? "No" Does the member want to readjust or resume medication? "No" Does the member want a referral to a psychiatrist or another profession? "No" Member's expectations regarding taking time off work? "Ambivalence about taking time off work" Does the member want to meet with one of our MD/NPs? "Wants an evaluation"
 
-**Coaching or therapy sessions with Dialogue**
+### **Coaching or therapy sessions with Dialogue**
+
 Can the member see their therapist within a reasonable time (1 month)? "N/A"
+
 Does the member have symptoms, a situation, or a request out of scope? No
+
 Select "not answered" Add details "not answered"
+
 Has the member been hospitalized in the last year related to their mental health? No
+
 Add details "not answered"
+
 Has the member undergone therapy in the past? Yes
+
 When, approximately? "2020" How does the member perceive the help received? "Helped" Additional details: “Stress related to the closure of Disney during the pandemic.”
+
 Is the member comfortable scheduling an appointment with one of our professionals, given our service offering? "Yes"
 
-**Plan**
-PHQ-9 results "24"
-GAD-7 results "16"
+## **Plan**
+
+PHQ-9 results "20"
+
+GAD-7 results "18"
+
 WSAS results "32"
+
 Dispatch recommendation "PSY"
+
 After reviewing the file and talking to the member, the best direction is "MD/NP | PSY"
+
 Does the member require a step up/down? No
+
 Please explain the reason "not answered"
+
 What are the member's expectations for their appointment(s) with our practitioners? "Someone who will help her get better and open her mind. MD/NP: discuss the possibility of taking time off work"
 
 
-<<MD note #1>> 
+
+# MD note #1 EN
+
 date: August 21, 2023
 
-**Health profile information**
+## **Health profile information**
+
 "Allergies : NoneMedications : NoneMedical history : None"
 
-**Preliminary questions**
+## **Preliminary questions**
+
 Patient location "Quebec
+
 Platform geolocation matches patient's location "Yes
+
 Patient identity validated by date of birth and ID "Yes
+
 Confirmation that patient is in a confidential location "Yes
+
 Type of visit "Virtual - Video
+
 Consent to virtual care "Yes
+
 Reason for visit "Follow-up"
 
-**Intake Summary**
+## **Intake Summary**
+
 Intake summary "see previous notes Hi, I'd like to follow up on my situation. In May I contacted dialogue for burnout. I let things go during the summer since potentially at work it would calm down, but I got sick (ear infection and strep) during the vacations and now that work has started again, the tension is back and I feel more exhausted than ever. I can't sleep at night and my body is obviously tormented. I'm thinking of asking for a leave of absence for a few months. "
 
-**Health profile information**
+## **Health profile information**
+
 "Allergies : NoneMedications : NoneMedical history : None"
+
 History of presenting problem(s) "Hx of burnout superimposed on a busy family life with 3 young children. Had counted on vacations to recharge, but have all been ill during most vacations Sleep remains very difficult, takes 2-4 hrs to fall asleep, thinks incessantly about work workload is very great ability to function, even for simple tasks is greatly affected sadness and anxiety no ATCD "
+
 Personal and family history "no answer".
+
 PHQ-9 results "20
+
 GAD-7 results "18
 
-**Social history**
+## **Social history**
+
 Breastfeeding? "No
+
 Pregnancy? "No
+
 MDD (if applicable) "no answer" "no answer
+
 DDM (if applicable) "no answer
+
 Additional details (AFAB only) "no answer
 
 **Lifestyle**
+
 Appetite "Decreased
+
 Weight changes? no 
+
 Sleep "Difficulty falling asleep | Decreased | Variable sleep"
+
 Physical activity "Occasional
+
 Additional details "decreased from previous
 
-**Substances**
+### **Substances**
+
 Smoking "None
+
 Alcohol "Occasional
+
 Substances "None
 
-**At home**
+### **At home**
+
 Social support "Good
+
 Marital status "Married
+
 Lives with "Spouse(e) | Child(ren)"
 
-**Work**
+### **Work**
+
 Profession "Employed
-Details "Marketing
+
+Details "Disney mascot
+
 Functioning at work "With great difficulty".
 
-**Review**
-**Mental state**
+## **Review**
+
+### **Mental state**
+
 Appearance "Tired, with dark circles" 
+
 Psychomotor activity "Normal
+
 Eye contact "Normal
+
 Mood and affect "Depressed | Anxious" Speech
+
 Speech "Speaks clearly
+
 Coherent | Normal content" thought processes
+
 Cognitive functions ""
+
 Delirium? "No."
+
 Hallucinations? No
+
 Presence of ideas of self-harm? No
+
 Presence of homicidal ideation? No
+
 Presence of suicidal ideation? No
 
-**Assessment and plan**
-ICD-11 diagnosis(es) "Adjustment disorder | Burnout" assessment
+## **Assessment and plan**
+
+ICD-11 diagnosis(es) "Adjustment disorder | Burnout" 
+
 Assessment "Burnout
+
 Therapy discussed? "Yes"
+
 If yes, what was discussed? If no, please explain. "to be started"
+
 Medication discussed? "Yes"
+
 If yes, what was discussed? If no, please explain. "Rx for sleep for now Prefer shrink approach first, re-evaluate in 2 wks"
+
 Other treatment(s) discussed? (supplements, light therapy, physical activity...) "Yes"
+
 If yes, what was discussed? If no, please explain. "resume exercise
-Treatment plan "no answer
 
-**Care plan**
+Treatment plan : Leave of absence from work prescribed for 2 weeks, from August 21 to September 28, 2023. Follow up to be scheduled in 2 weeks.
+
+## **Care plan**
+
 Main Problem "Burnout
-Recommendation "We discussed taking a break from work and a certificate for a work stoppage will be forwarded to you. We will follow up together in 2 weeks and a request for an appointment with a therapist will be proposed.
 
-<< # PSY note #1>>
+Recommendation "We discussed taking a break from work and a certificate for a work stoppage will be forwarded to you. We will follow up together in 2 weeks and a request for an appointment with a therapist will be proposed."
+
+
+# PSY note #1
+
+Consulted by Mental Health Specialist: Dr. Stephanie 
 
 Date: August 30, 2023
 
-**PSY Evolution note**
+# **PSY Evolution note**
 
 **Reason for consultation:** exhaustion
 
 **Service provided:** Mental health consultations (MHS, MHT, PSY)
 
-**Preliminary questions**
+## **Preliminary questions**
 
 **Patient identity validated by date of birth and ID:** Yes
 
@@ -168,11 +277,11 @@ Date: August 30, 2023
 
 **Member consents to psychotherapy as discussed at first interview:** Yes
 
-**Examination**
+## **Examination**
 
 **Clinical impressions:** arrived on time, well dressed, polite, friendly, talkative, affect congruent to content.
 
-**Evaluation**
+## **Evaluation**
 
 **Number of sessions:** 2
 
@@ -184,32 +293,311 @@ Date: August 30, 2023
 
 **Description of plan:** no answer
 
-**Care plan**
+## **Care plan**
+
+### 
 
 **Main problem:** burnout
 
 **Recommendation:** Good morning,
+
 Please find attached a care plan developed following our meeting today. Here is a summary of the themes discussed, as well as the objectives we set together:
 
 Themes:
+
 we discussed the stress response
+
 we discussed distortions
+
 we discussed personal limits
+
 Goals to achieve: Setting healthy limits, understanding and communicating needs,
 
 Recommendations:
+
 Assertivities (use "I" statements)
+
 1. objective observation (what's happening)
 2. How it affects you
 3. what you need
 
 as a couple, we also want to make sure that our partner has the opportunity to use the same process so that we can negotiate how to meet each other's needs.
+
 1. Cognitive restructuring
 
 Thought diary
+
 1. Trigger
 2. Symptoms
 3. Initial inner monologue
 4. Alternative response
+
 Number of sessions:7-10
+
 Thank you for your trust and openness. It's a privilege to be able to accompany you in this process.
+
+
+
+# PSY note #2
+
+Date: September 12, 2023
+
+# **PSY Evolution note (en)**
+
+**Reason for consultation:** anxiety
+
+**Service provided:** Mental health consultations (MHS, MHT, PSY)
+
+## **Preliminary questions**
+
+**Patient identity validated by date of birth and ID:** Yes
+
+**Patient location:** Quebec
+
+**Confirmation that patient is in a confidential location:** Yes
+
+**Consent to virtual care:** Yes
+
+**Member consents to psychotherapy as discussed at first interview:** Yes
+
+## **Examination**
+
+**Clinical impressions:** no response
+
+## **Evaluation**
+
+**Number of sessions:** 3
+
+**Nature of session:** Video consultation
+
+**People present during session:** Individual
+
+**Describe the themes and objectives of the session:** Themes:
+
+we discussed the stress response
+
+we discussed distortions
+
+we discussed personal limits
+
+**Description of plan:** Setting healthy boundaries, understanding and communicating needs,
+
+## Care plan**
+
+### 
+
+**Main problem:** anxiety
+
+**Recommendation:** Hello,
+
+Please find enclosed a care plan drawn up following our meeting today. Here is a summary of the themes discussed, as well as the objectives we set together:
+
+Topics:
+
+we discussed the stress response
+
+we discussed distortions
+
+we discussed personal limits
+
+Goals to achieve: Setting healthy boundaries, understanding and communicating needs,
+
+Recommendations:
+
+Assertivities (use "I" statements)
+
+1. objective observation (what's going on)
+2. How it affects you
+3. what you need
+
+as a couple, we also want to make sure that our partner has the opportunity to use the same process so that we can negotiate how to meet each other's needCognitive restructuring
+
+Thought diary
+
+1. Trigger
+2. Symptoms
+3. Initial inner monologue
+4. Alternative response
+
+Number of sessions:7-10
+
+Thank you for your trust and openness. It's a privilege to be able to accompany you in this process
+
+
+
+# PHQ-9 and GAD 7 scores
+
+Initial scores : August 18, 2023
+
+PHQ-9=24; GAD-7=16;  WSAS=32
+
+PHQ-9
+
+September 5: 13
+
+September 19: 20 
+
+GAD-7
+
+September 5: 15
+
+September 9: 14
+
+
+# MD note #2 EN
+
+September 6, 2021
+
+## **Health profile information**
+
+**:** Allergies : None
+
+Medications : None
+
+Medical history : None
+
+## **Preliminary questions**
+
+**Patient location:** Quebec
+
+**Platform geolocation matches patient location:** Yes
+
+**Patient identity validated by date of birth and ID:** Yes
+
+**Confirmation that patient is in a confidential location:** Yes
+
+**Type of visit:** Virtual - Video
+
+**Consent to virtual care:** Yes
+
+**Reason for consultation:** burnout follow-up
+
+## **Medical history**
+
+**Admission summary:** see previous notes
+
+**History of presenting problem(s):** Has more energy but still anxious
+
+Initially anxious about work, no longer anxious because she has distanced herself from work
+
+Sees herself anxious about situations that don't normally cause anxiety, such as doing homework with the kids or going to a social dinner.
+
+Recalls an abusive relationship in the past that she finally stopped
+
+Mood OK
+
+works out now every day
+
+reads about anxiety, sees therapist
+
+less appetite but not loosing weight
+
+sleep is variable but improved
+
+**Personal and family history:** no answer
+
+**PHQ-9 results:** 13
+
+**GAD-7 results:** 15
+
+## **Social history**
+
+### 
+
+**Breastfeeding? :** No
+
+**Pregnancy? :** No
+
+### Lifestyle
+
+**Appetite:** Decreased
+
+- *Weight changes? no
+
+**Sleep:** Variable sleep | Decreased
+
+**Physical activity:** increased, Regular
+
+**Substances**
+
+**Smoking:** None
+
+**Alcohol:** Occasionnal
+
+**Substances:** None
+
+### **At home**
+
+**Social support:** Good
+
+Marital status:** ** Living with:** Spouse
+
+**Lives with:** Spouse/Children
+
+**AVQs/AVDs:** With great difficulty
+
+### **Work**
+
+**Occupation:** Employed | Stopped working
+
+## **Examination**
+
+**Examination:** no answer
+
+### Mental state
+
+**Appearance:** Appropriate attire
+
+**Psychomotor activity:** Normal
+
+**Eye contact:** Normal
+
+**Mood and affect:** Anxious
+
+**Speech:** Speaks clearly
+
+**Thought process:** Coherent
+
+**Cognitive functions:** Normal attention
+
+**Délire? :** No
+
+Hallucinations? No
+
+Presence of ideas of self-harm? No
+
+Presence of homicidal ideation? No
+
+Presence of suicidal ideation? No
+
+## Assessment and plan** **Diagnosis(s)
+
+**ICD-11 diagnosis(es):** "Adjustment disorder | Burnout" ‘’Anxiety” 
+
+**Assessment:** Burnout and Anxiety
+
+**Therapy discussed? :** Yes
+
+**If yes, what was discussed? If no, please explain. :** continue psychotherapy
+
+**Medication discussed? :** Yes
+
+**If yes, what was discussed? If no, please explain. :** Start medication (Escitalopram to help with anxiety)
+
+**Other treatment(s) discussed (supplements, light therapy, physical activity...) :** Yes
+
+- *If yes, what was discussed? If no, please explain. exercise, activation
+
+follow up appointment in 2 weeks
+
+### **Medications**
+
+**Prescription drugs:**
+
+Escitalopram oxalate 10 mg Oral Tablet - 0.5 tablets for 10 Day(s) QD - Once daily, and then 1 tablets for 30 Day(s) QD - Once daily
+
+## Care plan
+
+**Main problem:** Anxiety
+
+**Recommendation:** We discussed the progress made and the anxiety symptoms that are less work-focused but still affect your daily life. We discussed continuing the work in therapy, and considering starting medication for the anxiety. A prescription will be forwarded to your pharmacy. We will schedule a follow up appointment in 2 weeks.
