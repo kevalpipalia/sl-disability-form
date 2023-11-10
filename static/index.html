@@ -1,0 +1,77 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Page</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .bg-image {
+    background-image: url('cp.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .btn-call-python {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-image">
+  <button class="btn-call-python" onclick="callPythonFunction()">Fill up Disability Form</button>
+</div>
+
+<script>
+  function callPythonFunction() {
+    // Example: POST request using fetch()
+    fetch('/disability_filling', {
+      method: 'POST',
+      // If you need to send data in the request add it here
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ data: "your_data" }),
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Success:', data);
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+  }
+</script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="background">
+        <button id="downloadButton" onclick="downloadPDF()">Download PDF</button>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
