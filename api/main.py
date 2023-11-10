@@ -97,7 +97,7 @@ from fillpdf import fillpdfs
 from flask import Flask, abort, render_template, send_file, send_from_directory
 
 from api.key_mappings import mapping_dict
-from api.llmoperations import PrimaryStatements, infer_llm
+from api.llmoperations import PrimaryStatements, infer_llm, infer_advance_llm
 
 app = Flask(__name__)
 
@@ -121,6 +121,35 @@ def generate_pdf():
     except Exception as e:
         abort(500, description=str(e))
 
+@app.route("/advance_generation")
+def advance_generation():
+    try:
+        generated_pdf_path = annotate_forms()
+        advance_generated_path = advance_annotating_forms(generated_pdf_path)
+        if os.path.exists(advance_generated_path):
+            return send_file(advance_generated_path, as_attachment=True)
+        else:
+            abort(404, "Generated PDF file not found")
+    except Exception as e:
+        abort(500, description=str(e))
+
+def advance_annotating_forms(pdf_path):
+    output_path = "/tmp/advance-out.pdf"
+    phy_statement = get_advance_statement("api/context.txt")
+    fillpdfs.write_fillable_pdf(
+        pdf_path, output_path, phy_statement
+    )
+    return output_path
+
+def get_advance_statement(contextpath):
+    with open(contextpath, "r") as f:
+        context = f.read()
+        f.close()
+    generated_fields = infer_advance_llm(context)
+    aligned_generated_fields = match_generated_content_with_template_fields(
+        generated_fields
+    )
+    return aligned_generated_fields
 
 def annotate_forms():
     # fields = fillpdfs.get_form_fields("input-forms/blank_format.pdf")
@@ -129,7 +158,10 @@ def annotate_forms():
     member_details = get_user_details("api/member-details.json")
     phy_statement_1 = get_primary_statement("api/context.txt")
     provider_details = get_user_details("api/provider-details.json")
-    final_update = {**member_details, **phy_statement_1, **provider_details}
+    first_loa_details = {'2.Date_of_birth_d 3 G': int(member_details['1.Date_of_birth_d2 G'])+1,
+                         '2.Date_of_birth_m 3 G': int(member_details['1.Date_of_birth_m2 G']),
+                         '2.Date_of_birth_y 3 G': int(member_details['1.Date_of_birth_y2 G'])}
+    final_update = {**member_details, **first_loa_details, **phy_statement_1, **provider_details}
     fillpdfs.write_fillable_pdf(
         "api/input-forms/blank_format.pdf", output_path, final_update
     )
