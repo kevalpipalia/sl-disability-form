@@ -136,8 +136,13 @@ def advance_generation():
 def advance_annotating_forms(pdf_path):
     output_path = "/tmp/advance-out.pdf"
     phy_statement = get_advance_statement("api/context.txt")
+    data_dict = {"3 Visit G": "Other",
+                 "3 Compliance to treat G": None,
+                 "3 Competency G": None}
+    final_update = {**phy_statement, **data_dict}
+    
     fillpdfs.write_fillable_pdf(
-        pdf_path, output_path, phy_statement
+        pdf_path, output_path, final_update
     )
     return output_path
 
@@ -158,9 +163,9 @@ def annotate_forms():
     member_details = get_user_details("api/member-details.json")
     phy_statement_1 = get_primary_statement("api/context.txt")
     provider_details = get_user_details("api/provider-details.json")
-    first_loa_details = {'2.Date_of_birth_d 3 G': int(member_details['1.Date_of_birth_d2 G'])+1,
-                         '2.Date_of_birth_m 3 G': int(member_details['1.Date_of_birth_m2 G']),
-                         '2.Date_of_birth_y 3 G': int(member_details['1.Date_of_birth_y2 G'])}
+    first_loa_details = {"2.Date_of_birth_d 3 G": int(member_details["1.Date_of_birth_d2 G"])+1,
+                         "2.Date_of_birth_m 3 G": int(member_details["1.Date_of_birth_m2 G"]),
+                         "2.Date_of_birth_y 3 G": int(member_details["1.Date_of_birth_y2 G"])}
     final_update = {**member_details, **first_loa_details, **phy_statement_1, **provider_details}
     fillpdfs.write_fillable_pdf(
         "api/input-forms/blank_format.pdf", output_path, final_update
