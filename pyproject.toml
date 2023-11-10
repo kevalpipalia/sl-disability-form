@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "sl-disability-form"
+version = "0.1.0"
+description = ""
+authors = ["Keval Pipalia <keval.pipalia@dialogue.co>"]
+readme = "README.md"
+packages = [{include = "sl_disability_form"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.333"
+pypdf = "3.8.1"
+tiktoken = "^0.5.1"
+fillpdf = "^0.7.2"
+pypdf2 = "^3.0.1"
+pdfminer = "^20191125"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+isort = "^5.12.0"
+openai = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
