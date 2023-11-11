@@ -50,5 +50,5 @@ mapping_dict = {
     "complications_and_other_conditions_1": "3 Comp 2 G",
     "complications_and_other_conditions_2": "3 Comp 3 G",
     "compliance_to_treatment": "3 Compliance to treat G",
-    "competency": "3 Competency G"
+    "competency": "3 Competency G",
 }

@@ -182,18 +182,13 @@ def infer_llm(context):
     return parsed
 
 
-
-
-
-
-
 # Define a new Pydantic model with field descriptions and tailored for Physician's Advance Statements.
 class AdvanceStatements(BaseModel):
     history: bool = Field(
         description="Has the patient been treated for this condition in the past?",
         default=False,
     )
-    
+
     prev_treatment_d: Optional[int] = Field(
         description="If the patient is treated for this condition in the past and provided the date of treatment, give provided date, only extract date i.e. 1-31.",
         default=None,
@@ -215,17 +210,16 @@ class AdvanceStatements(BaseModel):
 
     visit_freq: Literal["Weekly", "Monthly", "Other: Bi-weekly", None] = Field(
         description="Provide the frequency of visit during different consultations. Use Bi-weekly by default.",
-        default="Other: Bi-weekly"
+        default="Other: Bi-weekly",
     )
 
     symptoms: str = Field(
-        description="Provide the details on patient's symptoms, Be specific and describe current symptoms, severity and frequency. INCLUDE PHQ9 AND GAD7 SCORES. Summarize in 3 lines maximum.", 
-        default=None
+        description="Provide the details on patient's symptoms, Be specific and describe current symptoms, severity and frequency. INCLUDE PHQ9 AND GAD7 SCORES. Summarize in 3 lines maximum.",
+        default=None,
     )
 
     are_tests_investigation_pending: bool = Field(
-        description="Are tests/Investigation pending?",
-        default=False
+        description="Are tests/Investigation pending?", default=False
     )
 
     expected_dor_d: Optional[int] = Field(
@@ -250,62 +244,61 @@ class AdvanceStatements(BaseModel):
     )
 
     whether_consulted_specialist: Optional[str] = Field(
-        description= "If the patient has been consulted by any specialist for this condition, provide the name of the specialist.",
-        default= None
+        description="If the patient has been consulted by any specialist for this condition, provide the name of the specialist.",
+        default=None,
     )
 
     specialist_speciality: Optional[str] = Field(
         description="If the patient has been consulted by any specialist for this condition, provide the speciality of that specialist.",
-        default=None
+        default=None,
     )
 
     specialist_consultation_d: Optional[int] = Field(
         description="If the patient has been consulted by any specialist for this condition, provide the consultation date, only extract date, i.e. 1-31",
         default=None,
-        ge=1, 
-        le=31
+        ge=1,
+        le=31,
     )
 
     specialist_consultation_m: Optional[int] = Field(
         description="If the patient has been consulted by any specialist for this condition, provide the consultation month, only extract month, i.e. 1-12",
         default=None,
-        ge=1, 
-        le=12
+        ge=1,
+        le=12,
     )
 
     specialist_consultation_y: Optional[int] = Field(
         description="If the patient has been consulted by any specialist for this condition, provide the consultation year, only extract year, e.g. 2023",
         default=None,
-        ge=2015, 
-        le=2023
+        ge=2015,
+        le=2023,
     )
 
     restrictions_and_limitations: str = Field(
         description="Please describe patient's current cognitive and/or physical restrictions and limitations. Be specific and descriptive. Summarize in 4 lines maximum.",
-        default=""
+        default="",
     )
 
     complications_and_other_conditions: str = Field(
-        description= "Describe any complications and additional conditions impacting patient's level of function or the expected recovery period. Be descriptive and accurate. Summarize in 4 lines maximum.",
-        default=""
+        description="Describe any complications and additional conditions impacting patient's level of function or the expected recovery period. Be descriptive and accurate. Summarize in 4 lines maximum.",
+        default="",
     )
 
     compliance_to_treatment: bool = Field(
         description="Infer whether the patient is following the recommended treatment program?, Use True by default",
-        default=True
+        default=True,
     )
 
     competency: bool = Field(
         description="Infer whether the patie is competent to manage his/her own affairs?",
-        default=True
+        default=True,
     )
-
 
 
 def infer_advance_llm(context):
     print(context)
     # Instantiate the parser with the new model.
-    langchain.debug=True
+    langchain.debug = True
     parser = PydanticOutputParser(pydantic_object=AdvanceStatements)
 
     # Update the prompt to match the new query and desired format.
