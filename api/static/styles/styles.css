@@ -12,16 +12,8 @@ body, html {
     position: relative;
 }
 
-/* #downloadButton {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: greenyellow;
-} */
-#downloadButton {
+
+#downloadButton, #advanceGenButton {
     position: absolute;
     right: 20px;
     bottom: 20px;
@@ -38,7 +30,11 @@ body, html {
     transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-#downloadButton:hover {
+#advanceGenButton {
+    right: 210px;
+}
+
+#downloadButton:hover, #advanceGenButton:hover {
     background-color: rgb(23,167,250); 
     color: white;
 }
