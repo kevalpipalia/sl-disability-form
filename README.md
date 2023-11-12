@@ -11,4 +11,3 @@ The system leverages context derived from Mental Health Services (MHS), Medical 
 
 #### Implementing Constrained AI Responses
 To further refine the AI's output and ensure consistency, we employ pydantic parsing with constrained instructions. This approach guarantees that the AI's responses adhere strictly to the predefined pydantic model, thus enhancing the accuracy and reliability of the completed forms. For a detailed view of the implementation, refer to the `api/llmoperations.py` in our repository.
-
